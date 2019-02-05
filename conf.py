@@ -17,71 +17,18 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Mrinal Purohit"  # (translatable)
+BLOG_AUTHOR = "Dr. Venkateswara Reddy"  # (translatable)
 BLOG_TITLE = "Through My Eyes"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://mrinalpurohit.in/"
+SITE_URL = " https://r3ddy97.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://mrinalpurohit.in/"
-BLOG_EMAIL = "contact@mrinalpurohit.in"
+# BASE_URL = " https://r3ddy97.github.io/"
+BLOG_EMAIL = ""
 # (translatable)
-BLOG_DESCRIPTION = "Personal site and blog of Mrinal Purohit aka iammrinal0"
+BLOG_DESCRIPTION = "Personal site and blog of Venkateswara Reddy  aka R3DDY97"
 
-# Nikola is multilingual!
-#
-# Currently supported languages are:
-#
-# en        English
-# ar        Arabic
-# az        Azerbaijani
-# bg        Bulgarian
-# bs        Bosnian
-# ca        Catalan
-# cs        Czech [ALTERNATIVELY cz]
-# da        Danish
-# de        German
-# el        Greek [NOT gr]
-# eo        Esperanto
-# es        Spanish
-# et        Estonian
-# eu        Basque
-# fa        Persian
-# fi        Finnish
-# fr        French
-# gl        Galician
-# hi        Hindi
-# hr        Croatian
-# hu        Hungarian
-# id        Indonesian
-# it        Italian
-# ja        Japanese [NOT jp]
-# ko        Korean
-# nb        Norwegian Bokmål
-# nl        Dutch
-# pa        Punjabi
-# pl        Polish
-# pt        Portuguese
-# pt_br     Portuguese (Brazil)
-# ru        Russian
-# sk        Slovak
-# sl        Slovene
-# sr        Serbian (Cyrillic)
-# sr_latin  Serbian (Latin)
-# sv        Swedish
-# tr        Turkish [NOT tr_TR]
-# uk        Ukrainian
-# ur        Urdu
-# zh_cn     Chinese (Simplified)
-#
-# If you want to use Nikola with a non-supported language you have to provide
-# a module containing the necessary translations
-# (cf. the modules at nikola/data/themes/base/messages/).
-# If a specific post is not translated to a language, then the version
-# in the default language will be shown instead.
-
-# What is the default language?
 DEFAULT_LANG = "en"
 
 # What other languages do you have?
@@ -143,7 +90,8 @@ THEME = "lanyon"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR = '#5670d4'
+# THEME_COLOR = '#5670d4'
+THEME_COLOR = '#7fff00'
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 #
@@ -547,11 +495,11 @@ REDIRECTIONS = []
 # https://getnikola.com/handbook.html#deploying-to-github
 # For user.github.io OR organization.github.io pages, the DEPLOY branch
 # MUST be 'master', and 'gh-pages' for other repositories.
-# GITHUB_SOURCE_BRANCH = 'master'
-# GITHUB_DEPLOY_BRANCH = 'gh-pages'
+GITHUB_SOURCE_BRANCH = 'master'
+GITHUB_DEPLOY_BRANCH = 'gh-pages'
 
 # The name of the remote where you wish to push to, using github_deploy.
-# GITHUB_REMOTE_NAME = 'origin'
+GITHUB_REMOTE_NAME = 'origin'
 
 # Whether or not github_deploy should commit to the source branch automatically
 # before deploying.
@@ -796,15 +744,17 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-GITHUB = '<a class="fa fa-github" href="https://github.com/iammrinal0" title="GitHub" target="_blank"></a>'
-KEYBASE = '<a class="fa fa-key" href="https://keybase.io/iammrinal0" title="Keybase" target="_blank"></a>'
-LINKEDIN = '<a class="fa fa-linkedin" href="https://linkedin.com/in/iammrinal0" title="LinkedIn" target="_blank"></a>'
-GOODREADS = '<a class="fa" href="https://goodreads.com/iammrinal0" title="Goodreads" target="_blank">g</a>'
-FACEBOOK = '<a class="fa fa-facebook-f" href="https://facebook.com/iammrinal0" title="Facebook" target="_blank"></a>'
-TWITTER = '<a class="fa fa-twitter" href="https://twitter.com/iammrinal0" title="Twitter" target="_blank"></a>'
-INSTAGRAM = '<a class="fa fa-instagram" href="https://instagram.com/iammrinal0" title="Instagram" target="_blank"></a>'
+GITHUB = '<a class="fa fa-github" href="https://github.com/R3DDY97" title="GitHub" target="_blank"></a>'
+GITLAB = '<a class="fa fa-gitlab" href="https://gitlab.com/R3DDY97" title="GitHub" target="_blank"></a>'
+KEYBASE = '<a class="fa fa-key" href="https://keybase.io/R3DDY97" title="Keybase" target="_blank"></a>'
+LINKEDIN = '<a class="fa fa-linkedin" href="https://linkedin.com/in/r3ddy97" title="LinkedIn" target="_blank"></a>'
+# GOODREADS = '<a class="fa" href="https://goodreads.com/iammrinal0" title="Goodreads" target="_blank">g</a>'
+# FACEBOOK = '<a class="fa fa-facebook-f" href="https://facebook.com/iammrinal0" title="Facebook" target="_blank"></a>'
+# TWITTER = '<a class="fa fa-twitter" href="https://twitter.com/iammrinal0" title="Twitter" target="_blank"></a>'
+# INSTAGRAM = '<a class="fa fa-instagram" href="https://instagram.com/iammrinal0" title="Instagram" target="_blank"></a>'
 
-CONTENT_FOOTER = '<hr>'+GITHUB+KEYBASE+LINKEDIN+GOODREADS+FACEBOOK+TWITTER+INSTAGRAM+'<br/>&copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by        <a href="https://getnikola.com" rel="nofollow" target="_blank">Nikola</a> with <a href="https://github.com/iammrinal0/lanyon" target="_blank">Lanyon</a> theme{license}'
+CONTENT_FOOTER = '<hr>'+GITHUB+KEYBASE+LINKEDIN+GITLAB + \
+    '<br/>&copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by        <a href="https://getnikola.com" rel="nofollow" target="_blank">Nikola</a> with <a href="https://github.com/r3ddy97/lanyon" target="_blank">Lanyon</a> theme{license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -833,12 +783,13 @@ CONTENT_FOOTER_FORMATS = {
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, googleplus, intensedebate, isso, livefyre, muut
 # You can leave this option blank to disable comments.
-COMMENT_SYSTEM = "disqus"
+# COMMENT_SYSTEM = "disqus"
+COMMENT_SYSTEM = ""
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = "iammrinal0"
+# COMMENT_SYSTEM_ID = "iammrinal0"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
@@ -943,7 +894,7 @@ EXTRA_HEAD_DATA = """
   ga('send', 'pageview');
 
 </script>
-"""
+ """
 # """<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">"""
 # USE_KATEX = False
 
@@ -961,7 +912,7 @@ EXTRA_HEAD_DATA = """
 # The default is ['fenced_code', 'codehilite']
 MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 
-# Extra options to pass to the pandoc comand.
+# # Extra options to pass to the pandoc comand.
 # by default, it's empty, is a list of strings, for example
 # ['-F', 'pandoc-citeproc', '--bibliography=/Users/foo/references.bib']
 PANDOC_OPTIONS = ['-f', 'gfm']
@@ -970,9 +921,7 @@ PANDOC_OPTIONS = ['-f', 'gfm']
 # long time). Insert anything you want here, or even make it empty (which is
 # the default right now)
 # (translatable)
-SOCIAL_BUTTONS_CODE = """
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-576133a19bcabb3e"></script>
- """
+SOCIAL_BUTTONS_CODE = """<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-576133a19bcabb3e"></script>"""
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
@@ -1046,7 +995,7 @@ INDEX_DISPLAY_POST_COUNT = 5
 #
 # If you prefer a Google search form, here's an example that should just work:
 # SEARCH_FORM = """
-# <!-- Google custom search -->
+# # <!-- Google custom search -->
 # <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
 # <div class="form-group">
 # <input type="text" name="q" class="form-control" placeholder="Search">
@@ -1123,7 +1072,7 @@ UNSLUGIFY_TITLES = True
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
 # TWITTER_CARD = {
 #     # 'use_twitter_cards': True,  # enable Twitter Cards
-#     # 'card': 'summary',          # Card type, you can also use 'summary_large_image',
+# ERROR: Two different tasks can't have a common target.'output/assets/js/jquery.min.js' is a target for copy_files:output/assets/js/jquery.min.js and copy_assets:output/assets/js/jquery.min.js#     # 'card': 'summary',          # Card type, you can also use 'summary_large_image',
 #                                   # see https://dev.twitter.com/cards/types
 #     # 'site': '@website',         # twitter nick for the website
 #     # 'creator': '@username',     # Username for the content creator / author.
@@ -1131,7 +1080,7 @@ UNSLUGIFY_TITLES = True
 
 # If webassets is installed, bundle JS and CSS into single files to make
 # site loading faster in a HTTP/1.1 environment but is not recommended for
-# HTTP/2.0 when caching is used. Defaults to True.
+# ERROR: Two different tasks can't have a common target.'output/assets/js/jquery.min.js' is a target for copy_files:output/assets/js/jquery.min.js and copy_assets:output/assets/js/jquery.min.js# HTTP/2.0 when caching is used. Defaults to True.
 # USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
@@ -1150,7 +1099,7 @@ UNSLUGIFY_TITLES = True
 # Enabling hyphenation has been shown to break math support in some cases,
 # use with caution.
 # HYPHENATE = False
-
+#
 # The <hN> tags in HTML generated by certain compilers (reST/Markdown)
 # will be demoted by that much (1 → h1 will become h2 and so on)
 # This was a hidden feature of the Markdown and reST compilers in the
